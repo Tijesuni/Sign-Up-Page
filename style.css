@@ -1,0 +1,265 @@
+
+#division{
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    color: #fff;
+    background: #31AA52;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.side-panel{
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    background: #FFFFFF;
+    border-radius: 20px;
+    left: 40%;
+    top: 0px;
+    text-align: center;
+    display: inline-block;
+}
+h3{
+    font-family: Offside, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    padding-top: 200px;
+}
+
+h2{
+    color: #31AA52;
+    font-family: Offside, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.paragraph{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.paragraph1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #31AA52;
+}
+
+input{
+    width: 70%;
+    height: 45px;
+    margin-bottom: 10px;
+    background: rgba(231, 231, 231, 0.6);
+    border-radius: 10px;
+    align-items: center;
+    padding-inline-start: 100px;
+}
+
+label{
+    opacity: 1.0;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #31AA52;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #31AA52;
+
+}
+
+.bottom{
+    text-align: center;
+}
+
+a.facebook:link, a.github:link, a.google:link{
+    color: black;
+    padding-right: 20px;
+}
+
+a.facebook:hover{
+    color: #4267B2;
+}
+
+a.github:hover{
+    color: #6e5494;
+}
+
+a.google:hover{
+    color: #dd4b39;
+}
+
+.form label{
+    position: absolute;
+    height: 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #131D32;
+    padding: 5px;
+}
+
+a.login:link{
+    text-decoration: none;
+    color: #31AA52;
+}
+
+a.button:link{
+    text-decoration: none;
+    color: #31AA52;
+}
+
+[class^="flaticon-"]::before{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    #division{
+        display: none;  
+        position: absolute;
+        width: 0px;
+        height: 100vh;
+        left: 0px;
+        top: 0px;
+        color: #fff;
+        background: #31AA52;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .side-panel{
+        width: 100%;
+        height: 100vh;
+        background: #FFFFFF;
+        border-radius: 20px;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    h3{
+        font-family: Offside, cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+        padding-top: 200px;
+    }
+    h2{
+        color: #31AA52;
+        font-family: Offside, cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 61px;
+    }
+
+    .paragraph{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        color: #fff;
+    }
+
+    .paragraph1{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        color: #31AA52;
+    }
+
+    input{
+        width: 80%;
+        height: 45px;
+        margin-bottom: 20px;
+        background: rgba(231, 231, 231, 0.6);
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    button{
+        width: 200px;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #31AA52;
+        box-sizing: border-box;
+        border-radius: 50px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #31AA52;
+    }
+    .bottom{
+        text-align: center;
+    }
+    
+    a.facebook:link, a.github:link, a.google:link{
+        color: black;
+        padding-right: 30px;
+    }
+    
+    a.facebook:hover{
+        color: #4267B2;
+    }
+    
+    a.github:hover{
+        color: #6e5494;
+    }
+    
+    a.google:hover{
+        color: #dd4b39;
+    }
+    
+    .form label{
+        position: absolute;
+        height: 50px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+        color: #131D32;
+        padding: 15px;
+    }
+    
+    a.login:link{
+        text-decoration: none;
+        color: #31AA52;
+    }
+
+}
